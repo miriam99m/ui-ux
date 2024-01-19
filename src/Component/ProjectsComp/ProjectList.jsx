@@ -5,6 +5,8 @@ import p1 from "../../Assets/project-image/projectOne.svg";
 import p2 from "../../Assets/project-image/projectTwo.svg";
 import p3 from "../../Assets/project-image/projectThree.svg";
 import p4 from "../../Assets/project-image/projectFour.svg";
+import p5 from "../../Assets/project-image/projectFour.svg";
+import p6 from "../../Assets/project-image/projectFour.svg";
 
 const styles = {
   ProjectListContainer: "w-[1083px] my-[90px] flex flex-col gap-[50px]",
@@ -66,6 +68,26 @@ const ProjectList = () => {
       content4: "Details about Project 4...",
       buttonText: "Website link here",
       image: p4,
+    },
+    {
+      id: "project5",
+      title: "Project 5 Title",
+      content1: "Details about Project 5...",
+      content2: "Details about Project 5...",
+      content3: "Details about Project 5...",
+      content4: "Details about Project 5...",
+      buttonText: "Website link here",
+      image: p5,
+    },
+    {
+      id: "project6",
+      title: "Project 6 Title",
+      content1: "Details about Project 6...",
+      content2: "Details about Project 6...",
+      content3: "Details about Project 6...",
+      content4: "Details about Project 6...",
+      buttonText: "Website link here",
+      image: p6,
     },
   ];
 

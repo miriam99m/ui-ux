@@ -2,7 +2,7 @@ import React from "react";
 import logo from "../Assets/home-image/icon-logo.svg";
 
 const styles = {
-  FooterContainer: "w-[1083px] h-[33px]",
+  FooterContainer: "w-[1083px] h-[33px] max-xl:w-[84vw]",
   FooterDiv: "flex flex-row items-center justify-between cursor-pointer",
   FooterContainerDiv: "flex flex-row",
   FooterContainerDivP:

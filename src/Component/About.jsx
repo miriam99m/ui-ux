@@ -2,15 +2,19 @@ import React from "react";
 import miriam from "../Assets/home-image/Ellipse.svg";
 
 const styles = {
-  AboutContainer: "w-[614px] h-[410px] mb-[90px] flex flex-col gap-[50px]",
+  AboutContainer:
+    "w-[614px] h-[410px] mb-[90px] flex flex-col gap-[50px] max-md:h-fit max-md:w-[84vw]",
   AboutTextDiv: "flex flex-col gap-[12px]",
   AboutTextDivP: "text-[#525252] text-[15px] font-[500] text-center",
-  AboutTextDivH2: "text-[#FEFFFF] text-[36px] font-[600] text-center",
-  AboutTextDivContainer: "flex flex-row gap-[34px]",
+  AboutTextDivH2:
+    "text-[#FEFFFF] text-[36px] font-[600] text-center max-md:text-[32px]",
+  AboutTextDivContainer:
+    "flex flex-row gap-[34px] max-md:flex-col max-md:h-fit max-md:items-center",
   AboutTextDieImage:
-    "bg-[var(--bg-box)] w-[284px] h-[232px] rounded-[24px] px-[48px] py-[22px]",
+    "bg-[var(--bg-box)] w-[284px] h-[232px] rounded-[24px] px-[48px] py-[22px] container-image",
   AboutTextDivContainerP: "text-[#FEFFFF] text-[18px] font-[500]",
-  AboutTextDivContP: "text-[#525252] text-[18px] font-[500] text-start",
+  AboutTextDivContP:
+    "text-[#525252] text-[18px] font-[500] text-start max-md:text-center",
 };
 
 const About = () => {

@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 const styles = {
   headerContainer:
-    "w-[1083px] h-[33px] flex flex-row justify-between items-center",
+    "w-[1083px] h-[33px] flex flex-row justify-between items-center max-xl:w-[84vw] max-md:h-fit max-md:flex-col max-md:gap-[17px] max-md:items-start",
   headerDivOne: "flex flex-row items-center cursor-pointer",
   headerDivOneP:
     "bg-[var(--btn-purple)] w-[63px] h-[25px] py-[6px] px-[10px] text-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom",
   headerDivTwoUl:
-    "flex flex-row gap-[13px] text-[#FEFFFF] text-[14px] font-[600]",
+    "flex flex-row gap-[13px] text-[#FEFFFF] text-[14px] font-[600] max-md:flex-wrap max-md:gap-[13px]",
   headerDivTwoli:
     "bg-[var(--bg-box)] h-[25px] py-[3px] px-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom cursor-pointer",
 };

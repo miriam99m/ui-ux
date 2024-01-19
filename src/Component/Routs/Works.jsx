@@ -5,6 +5,8 @@ import p1 from "../../Assets/project-image/projectOne.svg";
 import p2 from "../../Assets/project-image/projectTwo.svg";
 import p3 from "../../Assets/project-image/projectThree.svg";
 import p4 from "../../Assets/project-image/projectFour.svg";
+import p5 from "../../Assets/project-image/projectFour.svg";
+import p6 from "../../Assets/project-image/projectFour.svg";
 import arrow from "../../Assets/project-image/arrow.svg";
 import { Link } from "react-router-dom";
 
@@ -49,6 +51,20 @@ const Works = () => {
       project_name: "Project name 4",
       project_title: "Title 4",
       project_image: p4,
+      project_arrow: arrow,
+    },
+    {
+      id: "project5",
+      project_name: "Project name 5",
+      project_title: "Title 5",
+      project_image: p5,
+      project_arrow: arrow,
+    },
+    {
+      id: "project6",
+      project_name: "Project name 6",
+      project_title: "Title 6",
+      project_image: p6,
       project_arrow: arrow,
     },
   ];

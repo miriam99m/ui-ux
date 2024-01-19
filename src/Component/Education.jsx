@@ -1,7 +1,8 @@
 import React from "react";
 
 const styles = {
-  EducationContainer: "w-[536px] flex flex-col gap-[50px] mb-[90px]",
+  EducationContainer:
+    "w-[536px] flex flex-col gap-[50px] mb-[90px] max-xl:w-[84vw]",
   EducationTextDiv: "flex flex-col gap-[12px]",
   EducationTextP: "text-[#525252] text-[15px] font-[500]",
   EducationTextH2: "text-[#FEFFFF] text-[36px] font-[600]",

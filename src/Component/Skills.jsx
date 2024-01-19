@@ -5,13 +5,15 @@ import MDpurple from "../Assets/purple-image/middarkpurple.svg";
 import Dpurple from "../Assets/purple-image/darkpurple.svg";
 
 const styles = {
-  SkillsContainer: "w-[1083px] flex flex-col gap-[50px] mb-[90px]",
+  SkillsContainer:
+    "w-[1083px] flex flex-col gap-[50px] mb-[90px] max-xl:w-[84vw] max-md:w-[93vw]",
   SkillsTextDiv: "flex flex-col gap-[12px]",
   SkillsTextDivP: "text-[#525252] text-[15px] font-[500]",
   SkillsTextDivH2: "text-[#FEFFFF] text-[36px] font-[600]",
-  SkillsChildrenContainer: "flex flex-row flex-wrap gap-[24px]",
+  SkillsChildrenContainer:
+    "flex flex-row justify-center flex-wrap gap-[24px] max-md:justify-center container-skill max-md:flex-col max-md:items-center",
   SkillsChildrenDiv:
-    "flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252]",
+    "flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252] container-skill-child",
   SkillsChildrenImage: "w-[20px] h-[20px]",
   SkillsChildrenDivText: "flex flex-col gap-[4px] w-[369px]",
   SkillsChildrenDivTextH2: "text-[#FEFFFF] text-[24px] font-[600] leading-5",

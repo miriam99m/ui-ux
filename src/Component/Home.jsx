@@ -9,22 +9,26 @@ import Linkdin from "../Assets/social-image/linkd-icon.svg";
 import Behance from "../Assets/social-image/behance-icon.svg";
 
 const styles = {
-  homeContainer: "w-[1083px] h-[335px] my-[90px] flex justify-between",
+  homeContainer:
+    "w-[1083px] h-[335px] my-[90px] justify-center flex gap-[23px] max-xl:w-full max-xl:h-fit max-md:flex-col max-md:px-[20px] max-md:gap-[23px] max-sm:flex-start",
   homeDivOne:
-    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] flex",
-  homeDivtwo: "w-[341px] flex flex-col justify-between",
+    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] flex max-xl:w-[27vw] max-xl:p-[20px] max-md:w-full",
+  homeDivtwo:
+    "w-[341px] flex flex-col items-center gap-[17px] max-xl:w-[26vw] max-md:w-full",
   homeDivtwoDivOne:
-    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px]",
-  homeDivtwoDivTwo: "w-full flex justify-between",
+    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[26vw] max-md:w-full",
+  homeDivtwoDivTwo:
+    "w-full flex gap-[19px] max-xl:w-[26vw] max-lg:flex-wrap max-lg:w-[200px] max-lg:justify-center max-md:w-full",
   homeDivtwoDivChild:
     "w-[71px] h-[72px] bg-[var(--bg-box)] rounded-[12px] shadow-custom flex justify-center items-center cursor-pointer overflow-visible social",
   homeDivtwoDivThree:
-    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px]",
+    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[26vw] max-md:w-full",
   homeDivThree:
-    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px]",
+    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[27vw] max-md:w-full max-md:h-[330px]",
   homeDivOneFirstDiv: "w-full flex flex-col justify-center gap-[24px]",
   homeDivOneFirstImage: "flex justify-start",
-  homeDivOneFirstDivH1: "text-[#FEFFFF] text-[36px] font-[600] text-start",
+  homeDivOneFirstDivH1:
+    "text-[#FEFFFF] text-[36px] font-[600] text-start max-md:text-[32px]",
   homeDivOneFirstDivP: "text-[#525252] text-[15px] font-[500] text-start",
   homeDivSecondDiv: "flex justify-between h-[66px]",
   homeDivSecondDivText: "flex flex-col",
@@ -37,10 +41,10 @@ const styles = {
   homeDivtwoDivThreeDivPOne: "text-[24px] text-[#525252] font-[400]",
   homeDivtwoDivThreeDivPTwo: "text-[24px] text-[#FEFFFF] font-[600]",
   homeDivtwoDivThreeImage: "flex justify-center items-center w-[40px]",
-  homeDivThreeContainer: "flex flex-col gap-[24px]",
-  homeDivThreeP: "text-[#FEFFFF] text-[36px] font-[600]",
+  homeDivThreeContainer: "h-full flex flex-col justify-between",
+  homeDivThreeP: "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px]",
   homeDivThreeButton:
-    "w-[275px] h-[55px] px-[10px] py-[8px] bg-[var(--btn-purple)] text-[#FEFFFF] text-[24px] font-[600] rounded-[103px]",
+    "w-[275px] h-[55px] px-[10px] py-[8px] bg-[var(--btn-purple)] text-[#FEFFFF] text-[24px] font-[600] rounded-[103px] max-xl:w-full",
 };
 
 const Home = () => {
