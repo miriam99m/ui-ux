@@ -4,6 +4,20 @@ import Mpurple from "../Assets/purple-image/midpurple.svg";
 import MDpurple from "../Assets/purple-image/middarkpurple.svg";
 import Dpurple from "../Assets/purple-image/darkpurple.svg";
 
+const styles = {
+  SkillsContainer: "w-[1083px] flex flex-col gap-[50px] mb-[90px]",
+  SkillsTextDiv: "flex flex-col gap-[12px]",
+  SkillsTextDivP: "text-[#525252] text-[15px] font-[500]",
+  SkillsTextDivH2: "text-[#FEFFFF] text-[36px] font-[600]",
+  SkillsChildrenContainer: "flex flex-row flex-wrap gap-[24px]",
+  SkillsChildrenDiv:
+    "flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252]",
+  SkillsChildrenImage: "w-[20px] h-[20px]",
+  SkillsChildrenDivText: "flex flex-col gap-[4px] w-[369px]",
+  SkillsChildrenDivTextH2: "text-[#FEFFFF] text-[24px] font-[600] leading-5",
+  SkillsChildrenDivTextP: "text-[#525252] text-[16px] font-[500]",
+};
+
 const Skills = () => {
   const object = [
     {
@@ -32,32 +46,23 @@ const Skills = () => {
     },
   ];
   return (
-    <div className="w-[1083px] flex flex-col gap-[50px] mb-[90px]">
-      <div className="flex flex-col gap-[12px]">
-        <p className="text-[#525252] text-[15px] font-[500]">Skills section</p>
-        <h2 className="text-[#FEFFFF] text-[36px] font-[600]">
-          Skills & experience
-        </h2>
+    <div className={styles.SkillsContainer}>
+      <div className={styles.SkillsTextDiv}>
+        <p className={styles.SkillsTextDivP}>Skills section</p>
+        <h2 className={styles.SkillsTextDivH2}>Skills & experience</h2>
       </div>
-      <div className="flex flex-row flex-wrap gap-[24px]">
+      <div className={styles.SkillsChildrenContainer}>
         {object.map((item, index) => (
-          <div
-            key={index}
-            className="flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252]"
-          >
+          <div key={index} className={styles.SkillsChildrenDiv}>
             <div>
               <div
-                className="w-[20px] h-[20px]"
+                className={styles.SkillsChildrenImage}
                 style={{ backgroundImage: `url(${item.image})` }}
               ></div>
             </div>
-            <div className="flex flex-col gap-[4px] w-[369px]">
-              <h2 className="text-[#FEFFFF] text-[24px] font-[600] leading-5">
-                {item.text}
-              </h2>
-              <p className="text-[#525252] text-[16px] font-[500]">
-                {item.paragraph}
-              </p>
+            <div className={styles.SkillsChildrenDivText}>
+              <h2 className={styles.SkillsChildrenDivTextH2}>{item.text}</h2>
+              <p className={styles.SkillsChildrenDivTextP}>{item.paragraph}</p>
             </div>
           </div>
         ))}

@@ -1,23 +1,32 @@
 import React from "react";
 import logo from "../Assets/home-image/icon-logo.svg";
 
+const styles = {
+  FooterContainer: "w-[1083px] h-[33px]",
+  FooterDiv: "flex flex-row items-center justify-between cursor-pointer",
+  FooterContainerDiv: "flex flex-row",
+  FooterContainerDivP:
+    "bg-[var(--btn-purple)] w-[63px] h-[25px] py-[6px] px-[10px] text-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom",
+  FooterTextDiv:
+    "bg-[var(--bg-box)] shadow-custom px-[16px] py-[8px] rounded-[69px]",
+  FooterTextDivP: "text-[#FEFFFF] text-[14px] font-[600]",
+};
+
 const Footer = () => {
   return (
-    <div className="w-[1083px] h-[33px]">
-      <div className="flex flex-row items-center justify-between cursor-pointer">
-        <div className="flex flex-row">
+    <div className={styles.FooterContainer}>
+      <div className={styles.FooterDiv}>
+        <div className={styles.FooterContainerDiv}>
           <div className="pr-[10px]">
             <img src={logo} alt="logo" />
           </div>
           <div>
-            <p className="bg-[var(--btn-purple)] w-[63px] h-[25px] py-[6px] px-[10px] text-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom">
-              Portfolio
-            </p>
+            <p className={styles.FooterContainerDivP}>Portfolio</p>
           </div>
         </div>
         <div>
-          <div className="bg-[var(--bg-box)] shadow-custom px-[16px] py-[8px] rounded-[69px]">
-            <p className="text-[#FEFFFF] text-[14px] font-[600]">
+          <div className={styles.FooterTextDiv}>
+            <p className={styles.FooterTextDivP}>
               © 2023 Miriam. All rights reserved.
             </p>
           </div>
