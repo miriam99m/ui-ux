@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const styles = {
   headerContainer:
-    "w-[1083px] h-[33px] flex flex-row justify-between items-center max-xl:w-[84vw] max-md:h-fit max-md:flex-col max-md:gap-[17px] max-md:items-start",
+    "w-[1083px] h-[33px] flex flex-row justify-between items-center max-mb:w-full max-mb:px-[33px] max-md:h-fit max-md:flex-col max-md:gap-[17px] max-md:items-start max-md:w-full max-md:px-[14px]",
   headerDivOne: "flex flex-row items-center cursor-pointer",
   headerDivOneP:
     "bg-[var(--btn-purple)] w-[63px] h-[25px] py-[6px] px-[10px] text-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom",

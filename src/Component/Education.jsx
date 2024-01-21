@@ -2,17 +2,19 @@ import React from "react";
 
 const styles = {
   EducationContainer:
-    "w-[536px] flex flex-col gap-[50px] mb-[90px] max-xl:w-[84vw]",
-  EducationTextDiv: "flex flex-col gap-[12px]",
+    "w-[536px] flex flex-col gap-[50px] mb-[90px] max-md:w-full max-md:px-[14px]",
+  EducationTextDiv: "flex flex-col gap-[12px] max-md:items-center",
   EducationTextP: "text-[#525252] text-[15px] font-[500]",
-  EducationTextH2: "text-[#FEFFFF] text-[36px] font-[600]",
-  EducationChildrenDiv: "flex flex-col gap-[24px]",
+  EducationTextH2:
+    "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px] max-xs:text-center",
+  EducationChildrenDiv:
+    "flex flex-col gap-[24px] max-md:items-center max-xs:w-full",
   EducationButtonDiv:
-    "flex flex-row justify-between bg-[var(--bg-box)] h-[53px] rounded-[24px] p-[10px]",
+    "flex flex-row bg-[var(--bg-box)] h-[53px] rounded-[24px] p-[10px] max-md:w-[341px] max-xs:w-full",
   EducationButtonDivP:
-    "h-full bg-[var(--btn-purple)] shadow-custom rounded-[69px] text-[#FEFFFF] text-[14px] font-[600] px-[16px] py-[6px]",
+    "h-full bg-[var(--btn-purple)] shadow-custom rounded-[69px] text-[#FEFFFF] text-[14px] font-[600] px-[16px] py-[6px] max-md:w-full max-md:text-center",
   EducationChildrenContainer:
-    "h-[115px] bg-[var(--bg-box)] border-[1px] border-[#525252] rounded-[24px] p-[24px]",
+    "h-[115px] bg-[var(--bg-box)] border-[1px] border-[#525252] rounded-[24px] p-[24px] max-md:w-[341px] max-xs:w-full max-xs:h-fit max-xs:flex max-xs:flex-col max-xs:gap-[4px]",
   EducationChildrenContainerH2:
     "text-[#FEFFFF] text-[20px] font-[600] text-start",
   EducationChildrenContainerPOne:
@@ -51,14 +53,14 @@ const Education = () => {
         <h2 className={styles.EducationTextH2}>Education & Career</h2>
       </div>
       <div className={styles.EducationChildrenDiv}>
-        <div>
+        <div className="max-xs:w-full">
           <div className={styles.EducationButtonDiv}>
-            <div className="w-full">
+            <div className="w-full max-md:flex max-md:justify-center">
               <p className={styles.EducationButtonDivP}>Career</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col gap-[12px]">
+        <div className="flex flex-col gap-[12px] max-xs:w-full">
           {object.map((item, index) => (
             <div key={index} className={styles.EducationChildrenContainer}>
               <h2 className={styles.EducationChildrenContainerH2}>

@@ -11,16 +11,21 @@ import arrow from "../../Assets/project-image/arrow.svg";
 import { Link } from "react-router-dom";
 
 const styles = {
-  WorksContainer: "w-[1083px] flex flex-col gap-[50px] my-[90px]",
-  WorksContainerDiv: "flex flex-row flex-wrap gap-[16px]",
+  WorksContainer:
+    "w-[1083px] flex flex-col gap-[50px] my-[90px] max-mb:w-full max-mb:px-[33px] max-xs:p-0",
+  WorksContainerDiv:
+    "flex flex-row flex-wrap gap-[16px] max-mb:flex-col max-mb:items-center max-xs:px-[14px]",
   WorksContainerDivChild:
-    "w-[533px] h-[458px] p-[22px] bg-[var(--bg-box)] rounded-[22px] shadow-custom flex flex-col gap-[12px]",
+    "w-[533px] h-[458px] p-[22px] bg-[var(--bg-box)] rounded-[22px] shadow-custom flex flex-col gap-[12px] max-md:w-[344px] max-md:h-[397px] max-mb:w-[46vw] max-xs:w-full",
   WorksContainerTextDiv: "flex justify-between h-[60px]",
-  WorksContainerTextP: "text-[#FEFFFF] text-[24px] font-[600]",
-  WorksContainerTextSecondP: "text-[#525252] text-[16px] font-[500] text-start",
+  WorksContainerTextP:
+    "text-[#FEFFFF] text-[24px] font-[600] max-xs:text-[5.6vw]",
+  WorksContainerTextSecondP:
+    "text-[#525252] text-[16px] font-[500] text-start max-xs:text-[3.7vw]",
   WorksContainerDivArrow:
     "w-[32px] h-[32px] bg-no-repeat arrow my-[10px] cursor-pointer overflow-visible",
-  WorksContainerDivImage: "w-[487px] h-[353px] bg-no-repeat rounded-[14px]",
+  WorksContainerDivImage:
+    "w-[487px] h-[353px] bg-no-repeat rounded-[14px] max-mb:w-full max-mb:bg-cover",
 };
 
 const Works = () => {
@@ -74,7 +79,7 @@ const Works = () => {
       <div className={styles.WorksContainer}>
         <div className={styles.WorksContainerDiv}>
           {arr.map((item, index) => (
-            <div key={index}>
+            <div key={index} className="max-xs:w-full">
               <div className={styles.WorksContainerDivChild}>
                 <div className={styles.WorksContainerTextDiv}>
                   <div>

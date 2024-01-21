@@ -10,41 +10,47 @@ import Behance from "../Assets/social-image/behance-icon.svg";
 
 const styles = {
   homeContainer:
-    "w-[1083px] h-[335px] my-[90px] justify-center flex gap-[23px] max-xl:w-full max-xl:h-fit max-md:flex-col max-md:px-[20px] max-md:gap-[23px] max-sm:flex-start",
+    "w-[1083px] h-[335px] my-[90px] justify-center flex gap-[23px] max-mb:w-full max-mb:px-[33px] max-mb:h-fit max-md:flex-col max-md:items-center max-md:px-[14px] max-md:gap-[23px] max-sm:flex-start",
   homeDivOne:
-    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] flex max-xl:w-[27vw] max-xl:p-[20px] max-md:w-full",
+    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] flex max-md:w-[343px] max-xs:w-full",
   homeDivtwo:
-    "w-[341px] flex flex-col items-center gap-[17px] max-xl:w-[26vw] max-md:w-full",
+    "w-[341px] flex flex-col items-center gap-[17px] max-mb:w-[26vw] max-md:w-[343px] max-xs:w-full",
   homeDivtwoDivOne:
-    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[26vw] max-md:w-full",
+    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-mb:w-[26vw] max-md:w-full max-mb:px-[12px]",
   homeDivtwoDivTwo:
-    "w-full flex gap-[19px] max-xl:w-[26vw] max-lg:flex-wrap max-lg:w-[200px] max-lg:justify-center max-md:w-full",
+    "w-full flex gap-[19px] max-mb:w-[26vw] max-lg:flex-wrap max-lg:w-[200px] max-lg:justify-center max-md:w-full max-xs:",
   homeDivtwoDivChild:
     "w-[71px] h-[72px] bg-[var(--bg-box)] rounded-[12px] shadow-custom flex justify-center items-center cursor-pointer overflow-visible social",
   homeDivtwoDivThree:
-    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[26vw] max-md:w-full",
+    "w-full h-[114px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-mb:w-[26vw] max-md:w-full",
   homeDivThree:
-    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-xl:w-[27vw] max-md:w-full max-md:h-[330px]",
-  homeDivOneFirstDiv: "w-full flex flex-col justify-center gap-[24px]",
+    "w-[348px] bg-[var(--bg-box)] rounded-[24px] shadow-custom p-[24px] max-md:w-[343px] max-md:h-[330px] max-xs:w-full",
+  homeDivOneFirstDiv: "w-full flex flex-col gap-[24px] justify-center",
   homeDivOneFirstImage: "flex justify-start",
   homeDivOneFirstDivH1:
-    "text-[#FEFFFF] text-[36px] font-[600] text-start max-md:text-[32px]",
+    "text-[#FEFFFF] text-[36px] font-[600] text-start max-mb:text-[30px] max-lg:text-[27px] max-md:text-[32px]",
   homeDivOneFirstDivP: "text-[#525252] text-[15px] font-[500] text-start",
-  homeDivSecondDiv: "flex justify-between h-[66px]",
-  homeDivSecondDivText: "flex flex-col",
-  homeDivSecondDivTextPOne: "text-[#525252] text-[24px] font-[400] text-start",
-  homeDivSecondDivTextPTwo: "text-[#FEFFFF] text-[24px] font-[600] text-start",
+  homeDivSecondDiv: "flex justify-between h-full",
+  homeDivSecondDivText: "flex flex-col justify-between",
+  homeDivSecondDivTextPOne:
+    "text-[#525252] text-[24px] font-[400] text-start max-mb:text-[22px] max-lg:text-[18px] max-md:text-[24px]",
+  homeDivSecondDivTextPTwo:
+    "text-[#FEFFFF] text-[24px] font-[600] text-start max-mb:text-[22px] max-lg:text-[20px] max-md:text-[24px] max-mb:leading-5",
   homeDivSecondDivImageDiv: "flex justify-center items-center w-[40px]",
   homeDivSecondDivImage: "w-[40px] h-[40px]",
   homeDivtwoDivThreeCountainer: "flex justify-between h-full",
-  homeDivtwoDivThreeDiv: "flex flex-col",
-  homeDivtwoDivThreeDivPOne: "text-[24px] text-[#525252] font-[400]",
-  homeDivtwoDivThreeDivPTwo: "text-[24px] text-[#FEFFFF] font-[600]",
+  homeDivtwoDivThreeDiv: "flex flex-col justify-between",
+  homeDivtwoDivThreeDivPOne:
+    "text-[24px] text-[#525252] font-[400]  max-mb:text-[22px] max-lg:text-[20px] max-md:text-[24px]",
+  homeDivtwoDivThreeDivPTwo:
+    "text-[24px] text-[#FEFFFF] font-[600]  max-mb:text-[22px] max-lg:text-[20px] max-md:text-[24px]",
   homeDivtwoDivThreeImage: "flex justify-center items-center w-[40px]",
-  homeDivThreeContainer: "h-full flex flex-col justify-between",
-  homeDivThreeP: "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px]",
+  homeDivThreeContainer:
+    "h-full flex flex-col gap-[24px] max-lg:justify-center",
+  homeDivThreeP:
+    "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[30px] max-mb:text-[32px] max-lg:text-[27px] max-md:text-[32px]",
   homeDivThreeButton:
-    "w-[275px] h-[55px] px-[10px] py-[8px] bg-[var(--btn-purple)] text-[#FEFFFF] text-[24px] font-[600] rounded-[103px] max-xl:w-full",
+    "w-[275px] h-[55px] px-[10px] py-[8px] bg-[var(--btn-purple)] text-[#FEFFFF] text-[24px] font-[600] rounded-[103px] max-mb:w-full",
 };
 
 const Home = () => {

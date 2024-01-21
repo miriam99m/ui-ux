@@ -10,22 +10,23 @@ import { Link } from "react-router-dom";
 
 const styles = {
   ProjectsContainer:
-    "w-[1083px] flex flex-col gap-[50px] mb-[90px] max-xl:w-full max-md:p-[13px]",
-  ProjectsTextDiv: "flex flex-col gap-[12px]",
+    "w-[1083px] flex flex-col gap-[50px] mb-[90px] max-xl:w-full max-md:px-[14px] max-md:items-center",
+  ProjectsTextDiv: "flex flex-col gap-[12px] max-md:items-center",
   ProjectsTextDivP: "text-[#525252] text-[15px] font-[500]",
-  ProjectsTextDivH2: "text-[#FEFFFF] text-[36px] font-[600]",
+  ProjectsTextDivH2: "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px] max-xs:text-center",
   ProjectsChildrenContainer:
-    "flex flex-row justify-center flex-wrap gap-[16px] max-md:flex-col container-project",
+    "flex flex-row justify-center flex-wrap gap-[16px] max-md:flex-col max-mb:w-full",
   ProjectsChildrenDiv:
-    "w-[533px] h-[458px] p-[22px] bg-[var(--bg-box)] rounded-[22px] shadow-custom flex flex-col gap-[12px] max-md:w-full container-child",
+    "w-[533px] h-[458px] p-[22px] bg-[var(--bg-box)] rounded-[22px] shadow-custom flex flex-col gap-[12px] max-md:w-[344px] max-md:h-[397px] max-mb:w-[46vw] max-xs:w-full",
   ProjectsChildrenTextDiv: "flex justify-between h-[60px]",
-  ProjectsChildrenTextDivPOne: "text-[#FEFFFF] text-[24px] font-[600]",
+  ProjectsChildrenTextDivPOne:
+    "text-[#FEFFFF] text-[24px] font-[600] max-md:text-[18px]",
   ProjectsChildrenTextDivPTwo:
-    "text-[#525252] text-[16px] font-[500] text-start",
+    "text-[#525252] text-[16px] font-[500] text-start max-md:text-[16px]",
   ProjectsChildrenArrow:
     "w-[32px] h-[32px] bg-no-repeat arrow my-[10px] cursor-pointer overflow-visible",
   ProjectsChildrenImage:
-    "w-[487px] h-[353px] bg-no-repeat rounded-[14px] container-child-img",
+    "w-[487px] h-[353px] bg-no-repeat rounded-[14px] max-mb:w-full max-mb:bg-cover",
   ProjectsChildrenButtom:
     "w-[71px] h-[31px] bg-[var(--bg-box)] text-[#FEFFFF] text-[12px] font-[600] rounded-[69px] cursor-pointer shadow-custom",
 };
@@ -89,7 +90,10 @@ const Projects = () => {
       </div>
       <div className={styles.ProjectsChildrenContainer}>
         {arr.slice(0, showAll ? arr.length : 4).map((item, index) => (
-          <div key={index} className="max-md:w-full">
+          <div
+            key={index}
+            className="max-md:w-full max-md:flex max-md:justify-center max-xs:justify-start max-xs:w-full"
+          >
             <div className={styles.ProjectsChildrenDiv}>
               <div className={styles.ProjectsChildrenTextDiv}>
                 <div>

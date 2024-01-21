@@ -14,36 +14,46 @@ import image from "../../Assets/home-image/emoji-vi.svg";
 
 const styles = {
   AboutMeContainer:
-    "w-[1083px] flex flex-col items-center gap-[90px] my-[90px]",
-  AboutMeDescriptionContainer: "w-[573px] flex flex-col gap-[50px]",
+    "w-[1083px] flex flex-col items-center gap-[90px] my-[90px] max-mb:w-full max-mb:px-[33px] max-md:gap-[34px] max-xs:px-[14px]",
+  AboutMeDescriptionContainer:
+    "w-[573px] flex flex-col gap-[50px] max-md:w-full",
   AboutMeDescriptionDiv: "flex flex-col items-center gap-[12px]",
   AboutMeDescriptionDivP: "text-[#525252] text-[15px] font-[500]",
-  AboutMeDescriptionDivH2: "text-[#FEFFFF] text-[36px] font-[600]",
-  AboutMeDescriptionImageContainer: "flex flex-row gap-[34px]",
-  AboutMeDescriptionImage: "w-[243px] h-[243px] bg-no-repeat bg-cover",
+  AboutMeDescriptionDivH2:
+    "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px] max-md:text-center max-md:text-[32px]",
+  AboutMeDescriptionImageContainer:
+    "flex flex-row gap-[34px] max-md:flex-col max-md:items-center",
+  AboutMeDescriptionImage:
+    "w-[243px] h-[243px] bg-no-repeat bg-cover max-xs:bg-center",
   AboutMeDescriptionImageP:
-    "text-[#525252] text-[18px] font-[500] w-[296px] text-start",
+    "text-[#525252] text-[18px] font-[500] w-[296px] text-start max-md:text-center max-xs:w-full",
   AboutMeDescriptionTextContainer:
-    "w-[625px] flex flex-row gap-[24px] text-start",
-  AboutMeDescriptionTextP: "text-[#525252] text-[18px] font-[500] w-[296px]",
-  AboutMeDescriptionTextH2: "text-[#FEFFFF] text-[32px] font-[600] w-[304px]",
-  AboutMeEmojiContainer: "flex flex-row gap-[69px]",
+    "w-[625px] flex flex-row gap-[24px] text-start max-md:flex-col max-md:items-center max-md:pag-[34px] max-md:w-full",
+  AboutMeDescriptionTextP:
+    "text-[#525252] text-[18px] font-[500] w-[296px] text-start max-md:text-center max-xs:w-full",
+  AboutMeDescriptionTextH2:
+    "text-[#FEFFFF] text-[32px] font-[600] w-[304px] max-md:text-center max-md:text-[32px] max-xs:w-full",
+  AboutMeEmojiContainer:
+    "flex flex-row gap-[69px] max-mb:flex-col max-md:mb-[16px]",
   AboutMeEmojiImage:
     "w-[188px] h-[188px] bg-no-repeat bg-center bg-[var(--bg-box)] rounded-[50%]",
   AboutMeEmojiImageTextP: "text-[#FEFFFF] text-[18px] font-[500]",
   AboutMeSkillContainer: "flex flex-col gap-[50px]",
-  AboutMeSkillBox: "flex flex-row flex-wrap gap-[24px]",
+  AboutMeSkillBox:
+    "flex flex-row justify-center flex-wrap justify-between gap-y-[24px] max-mb:justify-center max-mb:gap-x-[28px] max-md:justify-center container-skill max-mb:flex-col max-md:items-center max-md:mb-[16px]",
   AboutMeSkillElements:
-    "flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252]",
+    "flex flex-row gap-[12px] text-start px-[24px] py-[30px] w-[527px] h-[131px] rounded-[24px] border-[1px] border-solid border-[#525252] max-md:w-[348px] max-xs:w-[81.8vw] max-xs:h-fit",
   AboutMeSkilsImage: "w-[20px] h-[20px]",
   AboutMeSkillTextContainer: "flex flex-col gap-[4px] w-[369px]",
   AboutMeSkillTextP: "text-[#525252] text-[16px] font-[500]",
-  AboutMeSkillTextH2: "text-[#FEFFFF] text-[24px] font-[600] leading-5",
+  AboutMeSkillTextH2:
+    "text-[#FEFFFF] text-[24px] font-[600] leading-5 max-xs:leading-7",
   AboutMeWorkTogetherContainer:
-    "flex flex-col items-center gap-[24px] border-[1px] border-[#525252] rounded-[24px] p-[24px]",
+    "w-full flex flex-col items-center gap-[24px] border-[1px] border-[#525252] rounded-[24px] p-[24px] max-mb:w-[527px] max-md:w-[348px] max-xs:w-[81.8vw]",
   AboutMeWorkTogetherBtn:
-    "w-[230px] h-[55px] bg-[var(--btn-purple)] rounded-[103px] text-[#FEFFFF] font-[600] text-[24px]",
-  AboutMeWorkTogetherP: "text-[#525252] text-[16px] font-[400]",
+    "w-[230px] h-[55px] bg-[var(--btn-purple)] rounded-[103px] text-[#FEFFFF] font-[600] text-[24px] max-md:w-[54vw] ",
+  AboutMeWorkTogetherP:
+    "text-[#525252] text-[16px] font-[400] max-md:text-center",
 };
 
 const AboutMe = () => {

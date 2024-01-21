@@ -18,6 +18,14 @@ body {
   font-family: montserrat;
   text-align: -webkit-center;
 }
+.Contact-body {
+  background-color: var(--bg-color);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: montserrat;
+  text-align: -webkit-center;
+}
 
 .social {
   transition: transform 0.2s ease, background-color 0.2s ease;
@@ -35,44 +43,23 @@ body {
   transform: scale(1.8) translateZ(0) rotate(0deg);
 }
 
-/* Start LP Project */
-@media screen and (max-width: 1120px) {
-  .container-project {
-    width: 100%;
-  }
-  .container-child {
-    width: 46vw;
-  }
-  .container-child-img {
-    width: 100%;
-    background-size: cover;
+/* Start Body */
+@media screen and (max-width: 768px) {
+  body {
+    text-align: start;
   }
 }
 
-/* End LP Project */
-/* Start skill */
-@media screen and (max-width: 1120px) {
-  .container-skill {
-    width: 100%;
-    justify-content: center;
-  }
-  .container-skill-child {
-    width: 46vw;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container-skill-child {
-    width: 93vw;
+/* End Body */
+
+/* Start Tools */
+@media screen and (max-width: 420px) {
+  .childs-flex {
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    padding: 24px;
   }
 }
-/* End skill */
-/* Start About */
-@media screen and (max-width: 320px) {
-  .container-image {
-    width: 88.75vw;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-  }
-}
-/* End About */
+/* End Tools */

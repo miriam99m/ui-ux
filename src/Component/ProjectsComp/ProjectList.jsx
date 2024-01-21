@@ -9,19 +9,24 @@ import p5 from "../../Assets/project-image/projectFour.svg";
 import p6 from "../../Assets/project-image/projectFour.svg";
 
 const styles = {
-  ProjectListContainer: "w-[1083px] my-[90px] flex flex-col gap-[50px]",
-  ProjectListHeading: "flex flex-col gap-[12px]",
+  ProjectListContainer:
+    "w-[1083px] my-[90px] flex flex-col gap-[50px] max-mb:w-full max-mb:px-[33px] max-xs:px-[14px]",
+  ProjectListHeading: "flex flex-col gap-[12px] max-md:items-center",
   ProjectListHeadingP: "text-[#525252] text-[15px] font-[500]",
-  ProjectListHeadingH2: "text-[#FEFFFF] text-[36px] font-[600]",
-  ProjectListSecondContainer: "flex flex-col items-center gap-[12px]",
+  ProjectListHeadingH2:
+    "text-[#FEFFFF] text-[36px] font-[600] max-md:text-[32px]",
+  ProjectListSecondContainer:
+    "flex flex-col items-center gap-[12px] max-xs:gap-[50px]",
   ProjectListDescriptionContainer:
-    "flex flex-row justify-center gap-[9px] w-fit",
+    "flex flex-row justify-center gap-[9px] w-fit flex-wrap max-md:grid max-md:grid-cols-3 max-md:gap-[9px] max-sm:grid-cols-2",
   ProjectListDescription:
-    "text-[#FEFFFF] text-[14px] font-[400] bg-[#0f0f0f] rounded-[69px] shadow-custom px-[16px] py-[8px]",
-  ProjectListProjectContainer: "w-[781px] p-[24px] flex flex-col gap-[24px]",
+    "text-[#FEFFFF] text-[14px] font-[400] bg-[#0f0f0f] rounded-[69px] shadow-custom px-[16px] py-[8px] max-md:text-center max-xs:text-[3.7vw]",
+  ProjectListProjectContainer:
+    "w-[781px] p-[24px] flex flex-col gap-[24px] max-md:w-full max-xs:p-0",
   ProjectListProjectImage:
-    "w-[733px] h-[465px] bg-no-repeat bg-cover rounded-[24px]",
-  ProjectListProjectP: "text-[#525252] text-[20px] font-[400] text-start",
+    "w-[733px] h-[465px] bg-no-repeat bg-cover rounded-[24px] max-md:w-full max-md:h-[465px]",
+  ProjectListProjectP:
+    "text-[#525252] text-[20px] font-[400] text-start max-md:text-center",
 };
 const ProjectList = () => {
   const ProjectList = [
