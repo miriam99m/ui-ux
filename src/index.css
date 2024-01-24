@@ -43,6 +43,12 @@ body {
   transform: scale(1.8) translateZ(0) rotate(0deg);
 }
 
+.short-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 /* Start Body */
 @media screen and (max-width: 768px) {
   body {

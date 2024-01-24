@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="max-s:w-full">
           <div className={styles.FooterTextDiv}>
             <p className={styles.FooterTextDivP}>
-              © 2023 Miriam. All rights reserved.
+              © 2024 Miriam. All rights reserved.
             </p>
           </div>
         </div>

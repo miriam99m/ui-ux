@@ -17,11 +17,11 @@ const styles = {
     "flex flex-row flex-wrap gap-[16px] max-mb:flex-col max-mb:items-center max-xs:px-[14px]",
   WorksContainerDivChild:
     "w-[533px] h-[458px] p-[22px] bg-[var(--bg-box)] rounded-[22px] shadow-custom flex flex-col gap-[12px] max-md:w-[344px] max-md:h-[397px] max-mb:w-[46vw] max-xs:w-full",
-  WorksContainerTextDiv: "flex justify-between h-[60px]",
+  WorksContainerTextDiv: "flex justify-between h-[60px] text-start",
   WorksContainerTextP:
-    "text-[#FEFFFF] text-[24px] font-[600] max-xs:text-[5.6vw]",
+    "text-[#FEFFFF] text-[24px] font-[600] max-sb:text-[20px] max-xs:text-[4.6vw]",
   WorksContainerTextSecondP:
-    "text-[#525252] text-[16px] font-[500] text-start max-xs:text-[3.7vw]",
+    "text-[#525252] text-[16px] font-[500] text-start max-xs:text-[3.7vw] short-text",
   WorksContainerDivArrow:
     "w-[32px] h-[32px] bg-no-repeat arrow my-[10px] cursor-pointer overflow-visible",
   WorksContainerDivImage:
@@ -32,43 +32,43 @@ const Works = () => {
   const arr = [
     {
       id: "project1",
-      project_name: "Project name 1",
-      project_title: "Title 1",
+      project_name: "FastexVerse",
+      project_title: "First Metaverse in Armenia",
       project_image: p1,
       project_arrow: arrow,
     },
     {
       id: "project2",
-      project_name: "Project name 2",
-      project_title: "Title 2",
+      project_name: "Barekam Logistic Service",
+      project_title: "Cargo transportation from Europe to Armenia",
       project_image: p2,
       project_arrow: arrow,
     },
     {
       id: "project3",
-      project_name: "Project name 3",
-      project_title: "Title 3",
+      project_name: "Futurest",
+      project_title: "Event/Tickets App",
       project_image: p3,
       project_arrow: arrow,
     },
     {
       id: "project4",
-      project_name: "Project name 4",
-      project_title: "Title 4",
+      project_name: "Solo By Taqsim",
+      project_title: "Virtual instrument",
       project_image: p4,
       project_arrow: arrow,
     },
     {
       id: "project5",
-      project_name: "Project name 5",
-      project_title: "Title 5",
+      project_name: "Up Comming",
+      project_title: "Up Comming",
       project_image: p5,
       project_arrow: arrow,
     },
     {
       id: "project6",
-      project_name: "Project name 6",
-      project_title: "Title 6",
+      project_name: "Up Comming",
+      project_title: "Up Comming",
       project_image: p6,
       project_arrow: arrow,
     },
@@ -82,7 +82,7 @@ const Works = () => {
             <div key={index} className="max-xs:w-full">
               <div className={styles.WorksContainerDivChild}>
                 <div className={styles.WorksContainerTextDiv}>
-                  <div>
+                  <div className="short-text">
                     <div>
                       <p className={styles.WorksContainerTextP}>
                         {item.project_name}

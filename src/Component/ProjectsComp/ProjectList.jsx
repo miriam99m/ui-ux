@@ -1,3 +1,4 @@
+import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Header from "../Header";
 import Footer from "../Footer";
@@ -7,7 +8,7 @@ import p3 from "../../Assets/project-image/projectThree.svg";
 import p4 from "../../Assets/project-image/projectFour.svg";
 import p5 from "../../Assets/project-image/projectFour.svg";
 import p6 from "../../Assets/project-image/projectFour.svg";
-
+import {arr} from "../Projects.jsx";
 const styles = {
   ProjectListContainer:
     "w-[1083px] my-[90px] flex flex-col gap-[50px] max-mb:w-full max-mb:px-[33px] max-xs:px-[14px]",
@@ -46,7 +47,6 @@ const ProjectList = () => {
     },
     {
       id: "project2",
-      title: "Project 2 Title",
       content1: "Details about Project 2...",
       content2: "Details about Project 2...",
       content3: "Details about Project 2...",
@@ -56,7 +56,6 @@ const ProjectList = () => {
     },
     {
       id: "project3",
-      title: "Project 3 Title",
       content1: "Details about Project 3...",
       content2: "Details about Project 3...",
       content3: "Details about Project 3...",
@@ -66,7 +65,6 @@ const ProjectList = () => {
     },
     {
       id: "project4",
-      title: "Project 4 Title",
       content1: "Details about Project 4...",
       content2: "Details about Project 4...",
       content3: "Details about Project 4...",
@@ -76,7 +74,6 @@ const ProjectList = () => {
     },
     {
       id: "project5",
-      title: "Project 5 Title",
       content1: "Details about Project 5...",
       content2: "Details about Project 5...",
       content3: "Details about Project 5...",
@@ -86,7 +83,6 @@ const ProjectList = () => {
     },
     {
       id: "project6",
-      title: "Project 6 Title",
       content1: "Details about Project 6...",
       content2: "Details about Project 6...",
       content3: "Details about Project 6...",
@@ -98,6 +94,11 @@ const ProjectList = () => {
 
   const { projectId } = useParams();
   const project = ProjectList.find((p) => p.id === projectId);
+  const object = arr.find((p) => p.id === projectId); 
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [projectId]);
 
   if (!project) {
     return <div>Project not found</div>;
@@ -108,8 +109,8 @@ const ProjectList = () => {
       <Header />
       <div className={styles.ProjectListContainer}>
         <div className={styles.ProjectListHeading}>
-          <p className={styles.ProjectListHeadingP}>For product name</p>
-          <h1 className={styles.ProjectListHeadingH2}>Project name</h1>
+          <p className={styles.ProjectListHeadingP}>{object.project_title}</p>
+          <h1 className={styles.ProjectListHeadingH2}>{object.project_name}</h1>
         </div>
         <div className={styles.ProjectListSecondContainer}>
           <div className={styles.ProjectListDescriptionContainer}>

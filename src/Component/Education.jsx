@@ -31,6 +31,11 @@ const Education = () => {
       date: "2021 - Present (Full time)",
     },
     {
+      text: "Happy Life",
+      paragraph: "UI/UX Designer",
+      date: "2022 - Present (Part time)",
+    },
+    {
       text: "Futurest",
       paragraph: "UI/UX Designer/ Stakeholder",
       date: "2021 - Present (Freelance)",
