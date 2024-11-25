@@ -1,8 +1,8 @@
 import React from "react";
-import Lpurple from "../Assets/purple-image/lightpurple.svg";
-import Mpurple from "../Assets/purple-image/midpurple.svg";
-import MDpurple from "../Assets/purple-image/middarkpurple.svg";
-import Dpurple from "../Assets/purple-image/darkpurple.svg";
+import Lpurple from "../Assets/purple-image/lightpurple.png";
+import Mpurple from "../Assets/purple-image/midpurple.png";
+import MDpurple from "../Assets/purple-image/middarkpurple.png";
+import Dpurple from "../Assets/purple-image/darkpurple.png";
 
 const styles = {
   SkillsContainer:

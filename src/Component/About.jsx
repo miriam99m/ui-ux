@@ -1,5 +1,5 @@
 import React from "react";
-import miriam from "../Assets/home-image/Ellipse.svg";
+import miriam from "../Assets/home-image/Ellipse.png";
 
 const styles = {
   AboutContainer:
@@ -11,7 +11,7 @@ const styles = {
   AboutTextDivContainer:
     "flex flex-row gap-[34px] max-md:flex-col max-md:h-fit max-md:items-center",
   AboutTextDieImage:
-    "bg-[var(--bg-box)] w-[284px] h-[232px] rounded-[24px] px-[48px] py-[22px] max-md:flex max-md:justify-center max-md:p-0 max-xs:w-[284px] max-xs:w-[232px]",
+    "bg-[var(--bg-box)] w-[284px] h-[232px] rounded-[24px] px-[48px] py-[22px] max-md:flex max-md:justify-center max-md:items-center max-md:p-0 max-xs:w-[284px] max-xs:w-[232px]",
   AboutTextDivContainerP: "text-[#FEFFFF] text-[18px] font-[500]",
   AboutTextDivContP:
     "text-[#525252] text-[18px] font-[500] text-start max-md:text-center max-md:w-[296px] max-xs:w-full",
@@ -29,7 +29,11 @@ const About = () => {
       <div className={styles.AboutTextDivContainer}>
         <div className={styles.AboutTextDiv}>
           <div className={styles.AboutTextDieImage}>
-            <img src={miriam} alt="Miriam" className="max-xs:w-[188px]"/>
+            <img
+              src={miriam}
+              alt="Miriam"
+              className="max-md:w-[188px] max-md:h-[188px]"
+            />
           </div>
           <div>
             <p className={styles.AboutTextDivContainerP}>Miriam</p>

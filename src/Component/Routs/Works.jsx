@@ -1,12 +1,10 @@
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
-import p1 from "../../Assets/project-image/projectOne.svg";
-import p2 from "../../Assets/project-image/projectTwo.svg";
-import p3 from "../../Assets/project-image/projectThree.svg";
-import p4 from "../../Assets/project-image/projectFour.svg";
-import p5 from "../../Assets/project-image/projectFour.svg";
-import p6 from "../../Assets/project-image/projectFour.svg";
+import p1 from "../../Assets/project-image/iPhone14Problackmini.png";
+import p2 from "../../Assets/project-image/Futurest.png";
+import p3 from "../../Assets/project-image/Solo.png";
+import p4 from "../../Assets/project-image/upcomming.png";
 import arrow from "../../Assets/project-image/arrow.svg";
 import { Link } from "react-router-dom";
 
@@ -25,51 +23,51 @@ const styles = {
   WorksContainerDivArrow:
     "w-[32px] h-[32px] bg-no-repeat arrow my-[10px] cursor-pointer overflow-visible",
   WorksContainerDivImage:
-    "w-[487px] h-[353px] bg-no-repeat rounded-[14px] max-mb:w-full max-mb:bg-cover",
+    "w-[487px] h-[353px] bg-no-repeat rounded-[14px] max-mb:w-full max-mb:bg-center",
 };
 
 const Works = () => {
   const arr = [
     {
-      id: "project1",
-      project_name: "FastexVerse",
+      id: "Futurest",
+      project_name: "Futurest",
+      project_title: "Event/Tickets App",
+      project_image: p2,
+      project_arrow: arrow,
+    },
+    {
+      id: "SkyPtoP",
+      project_name: "SkyPtoP",
       project_title: "First Metaverse in Armenia",
       project_image: p1,
       project_arrow: arrow,
     },
     {
-      id: "project2",
-      project_name: "Barekam Logistic Service",
+      id: "SoloByTaqsim",
+      project_name: "Solo By Taqsim",
       project_title: "Cargo transportation from Europe to Armenia",
-      project_image: p2,
-      project_arrow: arrow,
-    },
-    {
-      id: "project3",
-      project_name: "Futurest",
-      project_title: "Event/Tickets App",
       project_image: p3,
       project_arrow: arrow,
     },
     {
-      id: "project4",
-      project_name: "Solo By Taqsim",
+      id: "UpComming",
+      project_name: "Up Comming",
       project_title: "Virtual instrument",
       project_image: p4,
       project_arrow: arrow,
     },
     {
-      id: "project5",
+      id: "UpComming",
       project_name: "Up Comming",
       project_title: "Up Comming",
-      project_image: p5,
+      project_image: p4,
       project_arrow: arrow,
     },
     {
-      id: "project6",
+      id: "UpComming",
       project_name: "Up Comming",
       project_title: "Up Comming",
-      project_image: p6,
+      project_image: p4,
       project_arrow: arrow,
     },
   ];

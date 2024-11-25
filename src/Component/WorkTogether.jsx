@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../Assets/home-image/emoji-vi.svg";
+import image from "../Assets/home-image/emoji-vi.png";
 
 const styles = {
   main: "w-full flex flex-col items-center max-mb:px-[33px] max-md:h-fit max-md:px-[14px]",

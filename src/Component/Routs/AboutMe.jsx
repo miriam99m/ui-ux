@@ -1,16 +1,16 @@
 import React from "react";
 import Header from "../Header";
 import Footer from "../Footer";
-import miriam from "../../Assets/home-image/Ellipse.svg";
-import blink from "../../Assets/about-image/about-blink-emoji.svg";
-import cloud from "../../Assets/about-image/about-cloud-emoji.svg";
-import confused from "../../Assets/about-image/about-confused-emoji.svg";
-import laptop from "../../Assets/about-image/about-laptop-emoji.svg";
-import Lpurple from "../../Assets/purple-image/lightpurple.svg";
-import Mpurple from "../../Assets/purple-image/midpurple.svg";
-import MDpurple from "../../Assets/purple-image/middarkpurple.svg";
-import Dpurple from "../../Assets/purple-image/darkpurple.svg";
-import image from "../../Assets/home-image/emoji-vi.svg";
+import miriam from "../../Assets/home-image/Ellipse.png";
+import blink from "../../Assets/about-image/about-blink-emoji.png";
+import cloud from "../../Assets/about-image/about-cloud-emoji.png";
+import confused from "../../Assets/about-image/about-confused-emoji.png";
+import laptop from "../../Assets/about-image/about-laptop-emoji.png";
+import Lpurple from "../../Assets/purple-image/lightpurple.png";
+import Mpurple from "../../Assets/purple-image/midpurple.png";
+import MDpurple from "../../Assets/purple-image/middarkpurple.png";
+import Dpurple from "../../Assets/purple-image/darkpurple.png";
+import image from "../../Assets/home-image/emoji-vi.png";
 
 const styles = {
   AboutMeContainer:
@@ -34,7 +34,7 @@ const styles = {
   AboutMeDescriptionTextH2:
     "text-[#FEFFFF] text-[32px] font-[600] w-[304px] max-md:text-center max-md:text-[32px] max-xs:w-full",
   AboutMeEmojiContainer:
-    "flex flex-row gap-[69px] max-mb:flex-col max-md:mb-[16px]",
+    "flex flex-row gap-[69px] max-mb:flex-wrap max-mb:justify-center max-md:mb-[16px]",
   AboutMeEmojiImage:
     "w-[188px] h-[188px] bg-no-repeat bg-center bg-[var(--bg-box)] rounded-[50%]",
   AboutMeEmojiImageTextP: "text-[#FEFFFF] text-[18px] font-[500]",

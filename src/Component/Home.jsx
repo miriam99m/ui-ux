@@ -1,12 +1,12 @@
 import React from "react";
-import emoji from "../Assets/home-image/emoji-blink.svg";
-import laptop from "../Assets/home-image/emoji-laptop.svg";
-import flag from "../Assets/home-image/flag.svg";
-import cute from "../Assets/home-image/emoji-cute.svg";
-import Istagram from "../Assets/social-image/insta-icons.svg";
-import Telegram from "../Assets/social-image/tele-icons.svg";
-import Linkdin from "../Assets/social-image/linkd-icon.svg";
-import Behance from "../Assets/social-image/behance-icon.svg";
+import emoji from "../Assets/home-image/emoji-blink.png";
+import laptop from "../Assets/home-image/emoji-laptop.png";
+import flag from "../Assets/home-image/flag.png";
+import cute from "../Assets/home-image/emoji-cute.png";
+import Istagram from "../Assets/social-image/insta-icons.png";
+import Telegram from "../Assets/social-image/tele-icons.png";
+import Linkdin from "../Assets/social-image/linkd-icon.png";
+import Behance from "../Assets/social-image/behance-icon.png";
 
 const styles = {
   homeContainer:

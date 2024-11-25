@@ -1,12 +1,13 @@
 import React from "react";
-import logo from "../Assets/home-image/icon-logo.svg";
+import footerLogo from "../Assets/home-image/footer-logo.png";
 
 const styles = {
   FooterContainer:
-    "w-[1083px] h-[33px]  max-mb:w-full max-mb:px-[33px] max-md:px-[14px] max-mb:w-full max-md:mb-[127px]",
+    "w-[1083px] h-fit mb-[90px] max-mb:w-full max-mb:px-[33px] max-md:px-[14px] max-mb:w-full",
   FooterDiv:
     "flex flex-row items-center justify-between max-md:flex-col max-md:items-start max-md:gap-[20px]",
-  FooterContainerDiv: "flex flex-row",
+  FooterContainerDiv: "flex flex-row items-center",
+  FooterContainerDivContainer: "pr-[10px] flex justify-center h-fit",
   FooterContainerDivP:
     "bg-[var(--btn-purple)] w-[63px] h-[25px] py-[6px] px-[10px] text-[10px] text-[#FEFFFF] font-[300] text-center align-middle rounded-[69px] shadow-custom",
   FooterTextDiv:
@@ -19,8 +20,8 @@ const Footer = () => {
     <div className={styles.FooterContainer}>
       <div className={styles.FooterDiv}>
         <div className={styles.FooterContainerDiv}>
-          <div className="pr-[10px] flex justify-center">
-            <img src={logo} alt="logo" />
+          <div className={styles.FooterContainerDivContainer}>
+            <img src={footerLogo} alt="logo" />
           </div>
           <div>
             <p className={styles.FooterContainerDivP}>Portfolio</p>
