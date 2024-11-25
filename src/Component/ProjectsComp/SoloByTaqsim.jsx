@@ -31,9 +31,6 @@ const styles = {
     "text-[#525252] font-montserrat font-[500] text-[15px] leading-[18px] text-center max-xs:text-[15px]",
   ProjectListSecondContainerInerDivTitleDivH1:
     "text-[#ffffff] font-[600] text-[36px] leading-[43px] text-center max-xs:text-[32px]",
-  ProjectListSecondContainerInfoDiv: "flex gap-[9px] max-xs:flex-wrap",
-  ProjectListSecondContainerInfoDivText:
-    "h-[33px] py-[6px] px-[16px] text-[#FEFFFF] font-[400] text-center rounded-[69px] shadow-custom max-md:text-[13px] max-md:h-auto",
   ProjectListDescriptionContainer:
     "flex flex-row justify-center gap-[9px] w-fit flex-wrap max-md:grid max-md:grid-cols-3 max-md:gap-[9px] max-sm:grid-cols-2",
   ProjectListDescription:
