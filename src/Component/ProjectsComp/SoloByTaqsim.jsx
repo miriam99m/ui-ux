@@ -59,7 +59,7 @@ const styles = {
     "grid justify-center grid-cols-4 grid-rows-2 gap-x-[25px] gap-y-[59px] w-[1120px] mt-[120px] max-xxl:w-[77.78vw] max-sb:grid-cols-2 max-sb:grid-rows-4 max-xs:grid-cols-1 max-xs:grid-rows-8 max-sb:gap-y-[7.68vw] max-mb:w-full max-xs:flex max-xs:flex-col max-xs:gap-y-4",
   ProjectListSecondContainerInfoDiv:
     "flex gap-[9px] justify-center max-ss:flex-wrap mt-[50px]",
-  ProjectListSecondContainerInfoDivText:
+  ProjectListSecondContainerInfoDivTextAlternative:
     "h-[33px] py-[6px] px-[16px] text-[#FEFFFF] font-[400] text-center rounded-[69px] shadow-custom max-md:text-[13px] max-md:h-auto",
   ProjectListGridChild1:
     "bg-[#1A1A1A] rounded-[13.8px] row-span-2 w-[18.47] h-[572px] px-[23px] pt-[23px] max-mb:w-full",
@@ -146,22 +146,38 @@ const SoloByTaqsim = () => {
             </div>
             <div className={styles.ProjectListSecondContainerInfoDiv}>
               <div>
-                <p className={styles.ProjectListSecondContainerInfoDivText}>
+                <p
+                  className={
+                    styles.ProjectListSecondContainerInfoDivTextAlternative
+                  }
+                >
                   Virtual instrument
                 </p>
               </div>
               <div>
-                <p className={styles.ProjectListSecondContainerInfoDivText}>
+                <p
+                  className={
+                    styles.ProjectListSecondContainerInfoDivTextAlternative
+                  }
+                >
                   App
                 </p>
               </div>
               <div>
-                <p className={styles.ProjectListSecondContainerInfoDivText}>
+                <p
+                  className={
+                    styles.ProjectListSecondContainerInfoDivTextAlternative
+                  }
+                >
                   Music
                 </p>
               </div>
               <div>
-                <p className={styles.ProjectListSecondContainerInfoDivText}>
+                <p
+                  className={
+                    styles.ProjectListSecondContainerInfoDivTextAlternative
+                  }
+                >
                   View
                 </p>
               </div>
