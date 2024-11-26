@@ -122,7 +122,6 @@ const styles = {
   ScopeMainLastCartSecondDivLastP:
     "font-[400] text-[17px] text-[#ffffff] leading-[24px] tracking-[-0.25px] text-left max-ss:text-[15px]",
   ProjectListChartTitle: "font-[700] text-[22px] text-[#6e2feb] leading-[26px]",
-  ScopeMainLastCartImg: "",
 };
 
 const SoloByTaqsim = () => {
