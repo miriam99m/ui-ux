@@ -63,7 +63,7 @@ const Education = () => {
     <div className={styles.EducationContainer}>
       <div className={styles.EducationTextDiv}>
         <p className={styles.EducationTextP}>Background section</p>
-        <h2 className={styles.EducationTextH2}>Education & Career</h2>
+        <h2 className={styles.EducationTextH2}>Career</h2>
       </div>
       <div className={styles.EducationChildrenDiv}>
         <div className={styles.EducationChildrenDivChild}>
