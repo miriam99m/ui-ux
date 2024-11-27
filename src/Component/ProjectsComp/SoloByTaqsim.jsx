@@ -14,6 +14,8 @@ import lfo1 from "../../Assets/Solo/lfo1.png";
 import lfo2 from "../../Assets/Solo/lfo2.png";
 import macbook from "../../Assets/Solo/macbook.png";
 import uikit from "../../Assets/Solo/ui-kit.png";
+import Header from "../Header";
+import Footer from "../Footer";
 
 const styles = {
   ProjectListContainer:
@@ -126,339 +128,349 @@ const styles = {
 
 const SoloByTaqsim = () => {
   return (
-    <div>
-      <div className={styles.ProjectListContainer}>
-        <div className={styles.ProjectListSecondContainer}>
-          <div className={styles.ProjectListSecondContainerInerDiv}>
-            <div className={styles.ProjectListSecondContainerInerDivTitleDiv}>
-              <p className={styles.ProjectListSecondContainerInerDivTitleDivP}>
-                About Project
-              </p>
-              <h1
-                className={styles.ProjectListSecondContainerInerDivTitleDivH1}
-              >
-                SOLO by TAQSIM
-              </h1>
-            </div>
-            <div className={styles.ProjectListSecondContainerInfoDiv}>
-              <div>
+    <>
+      <Header />
+      <div>
+        <div className={styles.ProjectListContainer}>
+          <div className={styles.ProjectListSecondContainer}>
+            <div className={styles.ProjectListSecondContainerInerDiv}>
+              <div className={styles.ProjectListSecondContainerInerDivTitleDiv}>
                 <p
-                  className={
-                    styles.ProjectListSecondContainerInfoDivTextAlternative
-                  }
+                  className={styles.ProjectListSecondContainerInerDivTitleDivP}
                 >
-                  Virtual instrument
+                  About Project
                 </p>
-              </div>
-              <div>
-                <p
-                  className={
-                    styles.ProjectListSecondContainerInfoDivTextAlternative
-                  }
+                <h1
+                  className={styles.ProjectListSecondContainerInerDivTitleDivH1}
                 >
-                  App
-                </p>
-              </div>
-              <div>
-                <p
-                  className={
-                    styles.ProjectListSecondContainerInfoDivTextAlternative
-                  }
-                >
-                  Music
-                </p>
-              </div>
-              <div>
-                <p
-                  className={
-                    styles.ProjectListSecondContainerInfoDivTextAlternative
-                  }
-                >
-                  View
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className={styles.ProjectListProjectContainer}>
-            <div className={styles.ProjectListProjectImage}>
-              <img src={solo} alt="" />
-            </div>
-            <div className={styles.ProjectListProjectInfo}>
-              <div>
-                <h1 className={styles.ProjectListProjectInfoSectionH1}>
-                  About SkyPtoP
+                  SOLO by TAQSIM
                 </h1>
-                <p className={styles.ProjectListProjectInfoSectionP}>
-                  Welcome to SOLO by TAQSIM, a new virtual instrument that
-                  authentically recreates the sound of modern world music.
-                  Whether it is quickly playing presets, tweaking sounds,
-                  setting up comprehensive modulations, or trying unique
-                  microtonal scales, SOLO is designed to be easy to use. We’ve
-                  partnered with musicians and producers from around the globe
-                  to include a library of authentic sounds to help you stand out
-                  from the crowd. If you want to explore more, you can import
-                  your own custom multi-samples into SOLO.
-                </p>
+              </div>
+              <div className={styles.ProjectListSecondContainerInfoDiv}>
+                <div>
+                  <p
+                    className={
+                      styles.ProjectListSecondContainerInfoDivTextAlternative
+                    }
+                  >
+                    Virtual instrument
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className={
+                      styles.ProjectListSecondContainerInfoDivTextAlternative
+                    }
+                  >
+                    App
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className={
+                      styles.ProjectListSecondContainerInfoDivTextAlternative
+                    }
+                  >
+                    Music
+                  </p>
+                </div>
+                <div>
+                  <p
+                    className={
+                      styles.ProjectListSecondContainerInfoDivTextAlternative
+                    }
+                  >
+                    View
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className={styles.ProjectListProjectContainer}>
+              <div className={styles.ProjectListProjectImage}>
+                <img src={solo} alt="" />
+              </div>
+              <div className={styles.ProjectListProjectInfo}>
+                <div>
+                  <h1 className={styles.ProjectListProjectInfoSectionH1}>
+                    About SkyPtoP
+                  </h1>
+                  <p className={styles.ProjectListProjectInfoSectionP}>
+                    Welcome to SOLO by TAQSIM, a new virtual instrument that
+                    authentically recreates the sound of modern world music.
+                    Whether it is quickly playing presets, tweaking sounds,
+                    setting up comprehensive modulations, or trying unique
+                    microtonal scales, SOLO is designed to be easy to use. We’ve
+                    partnered with musicians and producers from around the globe
+                    to include a library of authentic sounds to help you stand
+                    out from the crowd. If you want to explore more, you can
+                    import your own custom multi-samples into SOLO.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className={styles.ProjectListGridContainerMain}>
-        <div className={styles.ProjectListGridContainerDiscriptionDiv}>
-          <h2 className={styles.ProjectListGridContainerDiscriptionH1}>
-            Style guide
-          </h2>
-          <p className={styles.ProjectListGridContainerDiscriptionP}>
-            Color Palette/Typefaces
-          </p>
-        </div>
-        <div className={styles.ProjectListGridContainer}>
-          <div className={styles.ProjectListGridChild1}>
-            <div className={styles.ProjectListGridChild1ColorDiv}></div>
-            <div className={styles.ProjectListGridChild1TextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>#f9412a</p>
-              <p className={styles.ProjectListGridChild1Text2}>orange</p>
-            </div>
-          </div>
-          <div className={styles.ProjectListGridChild2}>
-            <div className={styles.ProjectListGridChild2ColorDiv}></div>
-            <div className={styles.ProjectListGridChild2TextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>#323232</p>
-              <p className={styles.ProjectListGridChild1Text2}>Black</p>
-            </div>
-          </div>
-          <div className={styles.ProjectListGridChild3}>
-            <div>
-              <img src={Aa} alt="logo" className="w-[245px] h-[312px]" />
-            </div>
-            <div className={styles.ProjectListGridChild3LogoTextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>Inter</p>
-              <p className={styles.ProjectListGridChild1Text2}>Regular</p>
-            </div>
-          </div>
-          <div className={styles.ProjectListGridChild4}>
-            <div>
-              <img
-                src={Aa}
-                alt="logo"
-                className="w-[168px] h-[172px] max-xxl:w-[150px]"
-              />
-            </div>
-            <div className={styles.ProjectListGridChild4LogoTextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>Inter</p>
-              <p className={styles.ProjectListGridChild1Text2}>Medium</p>
-            </div>
-          </div>
-          <div className={styles.ProjectListGridChild5}>
-            <div className={styles.ProjectListGridChild5ColorDiv}></div>
-            <div className={styles.ProjectListGridChild5TextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>#FFFFFF</p>
-              <p className={styles.ProjectListGridChild1Text2}>Solid white</p>
-            </div>
-          </div>
-          <div className={styles.ProjectListGridChild6}>
-            <div>
-              <img
-                src={Aa}
-                alt="logo"
-                className="w-[168px] h-[172px] max-xxl:w-[150px]"
-              />
-            </div>
-            <div className={styles.ProjectListGridChild6TextDiv}>
-              <p className={styles.ProjectListGridChild1Text1}>Inter</p>
-              <p className={styles.ProjectListGridChild1Text2}>Bold</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={styles.ScopeMainDiv}>
-        <div className={styles.ScopeMainContainer}>
-          <div className={styles.ScopeMainContainerFirstDiv}>
-            <p className={styles.ProjectListChartTitle}>
-              The scope of our work
+        <div className={styles.ProjectListGridContainerMain}>
+          <div className={styles.ProjectListGridContainerDiscriptionDiv}>
+            <h2 className={styles.ProjectListGridContainerDiscriptionH1}>
+              Style guide
+            </h2>
+            <p className={styles.ProjectListGridContainerDiscriptionP}>
+              Color Palette/Typefaces
             </p>
           </div>
-          <div className={styles.ScopeMainContainerSecondDivContainer}>
-            <div className={styles.ScopeMainContainerCardDiv}>
-              <div className={styles.ScopeMainCardDiv}>
-                <div className="relative">
-                  <img
-                    src={rocket}
-                    alt="rocket"
-                    className={styles.ScopeMainCardImgOne}
-                  />
-                </div>
-                <div className={styles.ScopeMainPDiv}>
-                  <p className={styles.ScopeMainDivPar}>Research</p>
-                  <p className={styles.ScopeMainDivParTwo}>
-                    We conducted competitors analysis, determined the main user
-                    personas, goals, and jobs for the future project.
-                  </p>
-                </div>
-              </div>
-              <div className={styles.ScopeMainCardDiv}>
-                <div className="relative">
-                  <img
-                    src={dart}
-                    alt="rocket"
-                    className={styles.ScopeMainCardImgTwo}
-                  />
-                </div>
-                <div className={styles.ScopeMainPDiv}>
-                  <p className={styles.ScopeMainDivPar}>UX Design</p>
-                  <p className={styles.ScopeMainDivParTwo}>
-                    We provided the main prototypes of future screens and a user
-                    flow, describing the potential client’s actions during the
-                    app interaction.
-                  </p>
-                </div>
-              </div>
-              <div className={styles.ScopeMainCardDiv}>
-                <div className="relative">
-                  <img
-                    src={paint}
-                    alt="rocket"
-                    className={styles.ScopeMainCardImgThree}
-                  />
-                </div>
-                <div className={styles.ScopeMainPDiv}>
-                  <p className={styles.ScopeMainDivPar}>UI Design</p>
-                  <p className={styles.ScopeMainDivParTwo}>
-                    We started drawing and working out all the application
-                    details using the main color chosen by the customer and the
-                    mood boards one.
-                  </p>
-                </div>
-              </div>
-              <div className={styles.ScopeMainCardDiv}>
-                <div className="relative">
-                  <img
-                    src={phone}
-                    alt="rocket"
-                    className={styles.ScopeMainCardImgFore}
-                  />
-                </div>
-                <div className={styles.ScopeMainPDiv}>
-                  <p className={styles.ScopeMainDivPar}>User Testing</p>
-                  <p className={styles.ScopeMainDivParTwo}>
-                    With high-fidelity mockups ready, we decided to do a second
-                    round of testing with users.
-                  </p>
-                </div>
+          <div className={styles.ProjectListGridContainer}>
+            <div className={styles.ProjectListGridChild1}>
+              <div className={styles.ProjectListGridChild1ColorDiv}></div>
+              <div className={styles.ProjectListGridChild1TextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>#f9412a</p>
+                <p className={styles.ProjectListGridChild1Text2}>orange</p>
               </div>
             </div>
-            <div>
-              <div className={styles.ScopeMainCardMainDiv}>
-                <div className={styles.ScopeMainCardDivLastCart}>
-                  <div className={styles.ScopeMainLastCartImg}>
+            <div className={styles.ProjectListGridChild2}>
+              <div className={styles.ProjectListGridChild2ColorDiv}></div>
+              <div className={styles.ProjectListGridChild2TextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>#323232</p>
+                <p className={styles.ProjectListGridChild1Text2}>Black</p>
+              </div>
+            </div>
+            <div className={styles.ProjectListGridChild3}>
+              <div>
+                <img src={Aa} alt="logo" className="w-[245px] h-[312px]" />
+              </div>
+              <div className={styles.ProjectListGridChild3LogoTextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>Inter</p>
+                <p className={styles.ProjectListGridChild1Text2}>Regular</p>
+              </div>
+            </div>
+            <div className={styles.ProjectListGridChild4}>
+              <div>
+                <img
+                  src={Aa}
+                  alt="logo"
+                  className="w-[168px] h-[172px] max-xxl:w-[150px]"
+                />
+              </div>
+              <div className={styles.ProjectListGridChild4LogoTextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>Inter</p>
+                <p className={styles.ProjectListGridChild1Text2}>Medium</p>
+              </div>
+            </div>
+            <div className={styles.ProjectListGridChild5}>
+              <div className={styles.ProjectListGridChild5ColorDiv}></div>
+              <div className={styles.ProjectListGridChild5TextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>#FFFFFF</p>
+                <p className={styles.ProjectListGridChild1Text2}>Solid white</p>
+              </div>
+            </div>
+            <div className={styles.ProjectListGridChild6}>
+              <div>
+                <img
+                  src={Aa}
+                  alt="logo"
+                  className="w-[168px] h-[172px] max-xxl:w-[150px]"
+                />
+              </div>
+              <div className={styles.ProjectListGridChild6TextDiv}>
+                <p className={styles.ProjectListGridChild1Text1}>Inter</p>
+                <p className={styles.ProjectListGridChild1Text2}>Bold</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.ScopeMainDiv}>
+          <div className={styles.ScopeMainContainer}>
+            <div className={styles.ScopeMainContainerFirstDiv}>
+              <p className={styles.ProjectListChartTitle}>
+                The scope of our work
+              </p>
+            </div>
+            <div className={styles.ScopeMainContainerSecondDivContainer}>
+              <div className={styles.ScopeMainContainerCardDiv}>
+                <div className={styles.ScopeMainCardDiv}>
+                  <div className="relative">
                     <img
-                      src={figma}
+                      src={rocket}
                       alt="rocket"
-                      className="w-[245px] max-ss:w-[218px]"
+                      className={styles.ScopeMainCardImgOne}
                     />
                   </div>
-                  <div className={styles.ScopeMainLastCartSecondDiv}>
-                    <p className={styles.ScopeMainLastCartSecondDivP}>
-                      Our tool of choice
-                      <span className={styles.ScopeMainLastCartSecondDivPSpan}>
-                        Figma
-                      </span>
+                  <div className={styles.ScopeMainPDiv}>
+                    <p className={styles.ScopeMainDivPar}>Research</p>
+                    <p className={styles.ScopeMainDivParTwo}>
+                      We conducted competitors analysis, determined the main
+                      user personas, goals, and jobs for the future project.
                     </p>
-                    <p className={styles.ScopeMainLastCartSecondDivLastP}>
-                      From the beginning, we knew that we needed a tool that
-                      would enable us to cooperate rapidly at every stage of the
-                      design process. Figma let us organize the wholde process
-                      very effectively and keep all the files in one place.
+                  </div>
+                </div>
+                <div className={styles.ScopeMainCardDiv}>
+                  <div className="relative">
+                    <img
+                      src={dart}
+                      alt="rocket"
+                      className={styles.ScopeMainCardImgTwo}
+                    />
+                  </div>
+                  <div className={styles.ScopeMainPDiv}>
+                    <p className={styles.ScopeMainDivPar}>UX Design</p>
+                    <p className={styles.ScopeMainDivParTwo}>
+                      We provided the main prototypes of future screens and a
+                      user flow, describing the potential client’s actions
+                      during the app interaction.
                     </p>
+                  </div>
+                </div>
+                <div className={styles.ScopeMainCardDiv}>
+                  <div className="relative">
+                    <img
+                      src={paint}
+                      alt="rocket"
+                      className={styles.ScopeMainCardImgThree}
+                    />
+                  </div>
+                  <div className={styles.ScopeMainPDiv}>
+                    <p className={styles.ScopeMainDivPar}>UI Design</p>
+                    <p className={styles.ScopeMainDivParTwo}>
+                      We started drawing and working out all the application
+                      details using the main color chosen by the customer and
+                      the mood boards one.
+                    </p>
+                  </div>
+                </div>
+                <div className={styles.ScopeMainCardDiv}>
+                  <div className="relative">
+                    <img
+                      src={phone}
+                      alt="rocket"
+                      className={styles.ScopeMainCardImgFore}
+                    />
+                  </div>
+                  <div className={styles.ScopeMainPDiv}>
+                    <p className={styles.ScopeMainDivPar}>User Testing</p>
+                    <p className={styles.ScopeMainDivParTwo}>
+                      With high-fidelity mockups ready, we decided to do a
+                      second round of testing with users.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div className={styles.ScopeMainCardMainDiv}>
+                  <div className={styles.ScopeMainCardDivLastCart}>
+                    <div className={styles.ScopeMainLastCartImg}>
+                      <img
+                        src={figma}
+                        alt="rocket"
+                        className="w-[245px] max-ss:w-[218px]"
+                      />
+                    </div>
+                    <div className={styles.ScopeMainLastCartSecondDiv}>
+                      <p className={styles.ScopeMainLastCartSecondDivP}>
+                        Our tool of choice
+                        <span
+                          className={styles.ScopeMainLastCartSecondDivPSpan}
+                        >
+                          Figma
+                        </span>
+                      </p>
+                      <p className={styles.ScopeMainLastCartSecondDivLastP}>
+                        From the beginning, we knew that we needed a tool that
+                        would enable us to cooperate rapidly at every stage of
+                        the design process. Figma let us organize the wholde
+                        process very effectively and keep all the files in one
+                        place.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
-        <div className="mb-[50px] flex justify-center">
-          <h2 className={styles.ProjectListChartTitle}>UI-KIT</h2>
+        <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
+          <div className="mb-[50px] flex justify-center">
+            <h2 className={styles.ProjectListChartTitle}>UI-KIT</h2>
+          </div>
+          <div>
+            <div className="flex justify-center items-center gap-[16px] max-ss:flex-col">
+              <div className="max-ss:w-full">
+                <img src={uikit} alt="" className="max-ss:w-full" />
+              </div>
+            </div>
+          </div>
         </div>
-        <div>
+        <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
+          <div className="mb-[50px] flex justify-center">
+            <h2 className={styles.ProjectListChartTitle}>3 Synth Engines</h2>
+          </div>
+          <div className="flex flex-col gap-[16px] justify-center">
+            <div className="bg-[#1a1a1a] rounded-[22px] px-[26px] py-[20px]">
+              <p className="text-[16px] text-start text-[#ffffff] font-[400] tracking-[-0.24px] max-ss:text-[15px]">
+                SOLO includes 3 different synth engines - sample playback,
+                virtual analog, and phase distortion - providing you the
+                ultimate sonic flexibility to blend synthetic sounds with our
+                organic wave sample set.Then further sculpt your sound with the
+                onboard Moog or Oberheim style -12db or -24db filter and
+                loudness envelope.
+              </p>
+            </div>
+            <div className="flex flex-col items-center gap-[16px]">
+              <div>
+                <img src={osc1} alt="" />
+              </div>
+              <div>
+                <img src={osc2} alt="" />
+              </div>
+              <div>
+                <img src={osc3} alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
+          <div>
+            <div className="mb-[50px] flex justify-center">
+              <h2 className={styles.ProjectListChartTitle}>
+                Modulate in the Matrix
+              </h2>
+            </div>
+          </div>
+          <div className="mb-[16px]">
+            <div className="bg-[#1a1a1a] rounded-[22px] px-[26px] py-[20px]">
+              <p className="text-[16px] text-start text-[#ffffff] font-[400] tracking-[-0.24px]">
+                The flexible modulation matrix allows you to use the 2 LFO's and
+                other controllers to drive parameters throughout the
+                synthesizer.Change the LFO type, rate, rate attack, depth, and
+                depth attack to modulate the filter, oscillator, effects, and
+                more!
+              </p>
+            </div>
+          </div>
           <div className="flex justify-center items-center gap-[16px] max-ss:flex-col">
             <div className="max-ss:w-full">
-              <img src={uikit} alt="" className="max-ss:w-full" />
+              <img src={matrix} alt="" className="max-ss:w-full" />
+            </div>
+            <div className="flex flex-col gap-[16px] max-ss:w-full max-ss:items-center">
+              <div className="max-ss:w-full">
+                <img src={lfo1} alt="" className="max-ss:w-full" />
+              </div>
+              <div className="max-ss:w-full">
+                <img src={lfo2} alt="" className="max-ss:w-full" />
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
-        <div className="mb-[50px] flex justify-center">
-          <h2 className={styles.ProjectListChartTitle}>3 Synth Engines</h2>
-        </div>
-        <div className="flex flex-col gap-[16px] justify-center">
-          <div className="bg-[#1a1a1a] rounded-[22px] px-[26px] py-[20px]">
-            <p className="text-[16px] text-start text-[#ffffff] font-[400] tracking-[-0.24px] max-ss:text-[15px]">
-              SOLO includes 3 different synth engines - sample playback, virtual
-              analog, and phase distortion - providing you the ultimate sonic
-              flexibility to blend synthetic sounds with our organic wave sample
-              set.Then further sculpt your sound with the onboard Moog or
-              Oberheim style -12db or -24db filter and loudness envelope.
-            </p>
-          </div>
-          <div className="flex flex-col items-center gap-[16px]">
-            <div>
-              <img src={osc1} alt="" />
-            </div>
-            <div>
-              <img src={osc2} alt="" />
-            </div>
-            <div>
-              <img src={osc3} alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="w-[1077px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
-        <div>
+        <div className="w-[996px] mt-[120px] mb-[90px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
           <div className="mb-[50px] flex justify-center">
-            <h2 className={styles.ProjectListChartTitle}>
-              Modulate in the Matrix
-            </h2>
+            <p className={styles.ProjectListChartTitle}>Main page</p>
           </div>
-        </div>
-        <div className="mb-[16px]">
-          <div className="bg-[#1a1a1a] rounded-[22px] px-[26px] py-[20px]">
-            <p className="text-[16px] text-start text-[#ffffff] font-[400] tracking-[-0.24px]">
-              The flexible modulation matrix allows you to use the 2 LFO's and
-              other controllers to drive parameters throughout the
-              synthesizer.Change the LFO type, rate, rate attack, depth, and
-              depth attack to modulate the filter, oscillator, effects, and
-              more!
-            </p>
-          </div>
-        </div>
-        <div className="flex justify-center items-center gap-[16px] max-ss:flex-col">
-          <div className="max-ss:w-full">
-            <img src={matrix} alt="" className="max-ss:w-full" />
-          </div>
-          <div className="flex flex-col gap-[16px] max-ss:w-full max-ss:items-center">
-            <div className="max-ss:w-full">
-              <img src={lfo1} alt="" className="max-ss:w-full" />
-            </div>
-            <div className="max-ss:w-full">
-              <img src={lfo2} alt="" className="max-ss:w-full" />
-            </div>
+          <div>
+            <img src={macbook} alt="" />
           </div>
         </div>
       </div>
-      <div className="w-[996px] mt-[120px] max-mb:w-full max-mb:px-[33px] max-ss:px-[23px]">
-        <div className="mb-[50px] flex justify-center">
-          <p className={styles.ProjectListChartTitle}>Main page</p>
-        </div>
-        <div>
-          <img src={macbook} alt="" />
-        </div>
-      </div>
-    </div>
+      <Footer />
+    </>
   );
 };
 

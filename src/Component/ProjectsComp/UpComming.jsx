@@ -6,7 +6,7 @@ import Footer from "../Footer";
 const styles = {
   UpcommingDiv: "max-md:flex max-md:justify-center max-md:mx-[14px]",
   UpcommingSecondDiv:
-    "w-[522px] h-[636px] bg-[var(--bg-box)] rounded-[22px] mt-[60px] shadow-custom flex flex-col items-center project-detail max-md:h-[50%] max-md:w-[73%] max-xs:w-full",
+    "w-[522px] h-[636px] bg-[var(--bg-box)] rounded-[22px] mt-[60px] mb-[90px] shadow-custom flex flex-col items-center project-detail max-md:h-[50%] max-md:w-[73%] max-xs:w-full",
   UpcommingTitle:
     "font-montserrat font-[600] text-[36px] text-[#FEFFFF] mt-[40px] max-md:text-[2rem] max-xs:text-[1.7rem]",
   UpcommingImageDiv:
